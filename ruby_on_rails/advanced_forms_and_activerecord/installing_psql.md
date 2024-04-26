@@ -94,6 +94,11 @@ sudo service postgresql start
 </div>
 
 Got an error, or don't see an active service? Come visit the [Discord](https://discord.gg/V75WSQG) for some help!
+Check if the service is running using
+```bash
+service postgresql status
+```
+If active, you should see the messages "postgresql.service - PostgreSQL RDBMS and the properties should read 'loaded:loaded...', 'Active:active (exited)...'"
 
 If `postgresql` is active, you can press `Q` to quit the status screen and move on to the next step.
 
